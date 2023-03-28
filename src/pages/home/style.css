@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.container {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282C35;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
+}
+
+.sub-title {
+  font-family: 'Merriweather', serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+.sub-title a {
+  color: #FFA7C4;
+  font-size: 16px;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    width: 80%;
+  }
+}

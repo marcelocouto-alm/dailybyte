@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-post {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFA7C4;
+  font-size: 1.8rem;
+  margin-top: 60px;
+}
+
+.author-post {
+  font-family: 'Merriweather', serif;
+  font-size: .8rem;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.body-post {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #FFA7C4;
+}
+
+.title-comments {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFA7C4;
+  font-size: 1rem;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.container-comments {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  gap: 15px;
+  border-radius: 10px;
+  background: #282C35;
+  box-shadow: 5px 5px 10px #242830,
+    -5px -5px 10px #2c303a;
+}
+
+.name-comment {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  color: #FFA7C4;
+  margin-top: 10px;
+}
+
+.author-comment {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.body-comment {
+  font-family: 'Merriweather', serif;
+  font-size: .8rem;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
